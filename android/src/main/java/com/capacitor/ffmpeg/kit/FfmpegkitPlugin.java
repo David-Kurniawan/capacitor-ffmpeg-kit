@@ -23,7 +23,7 @@ public class FfmpegkitPlugin extends Plugin {
     @PluginMethod
     public void exec(PluginCall call) {
         String command = call.getString("command");
-        String name = call.getString("name");
+        Integer name = call.getInt("name");
 
         FFmpegKit.executeAsync(command, new FFmpegSessionCompleteCallback() {
 
