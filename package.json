@@ -1,6 +1,6 @@
 {
   "name": "capacitor-ffmpeg-kit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "FFMPEG for capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
